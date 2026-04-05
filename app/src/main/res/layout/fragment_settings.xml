@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F0F4F8">
+
+    <TextView
+        android:text="⚙️"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="72sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/volumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔇 Volume: 0"
+        android:textSize="24sp"
+        android:textColor="#1A1A2E"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <SeekBar
+        android:id="@+id/volumeBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"/>
+
+</LinearLayout>
