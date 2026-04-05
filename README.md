@@ -117,4 +117,4 @@ Built as part of an Android development lab focused on:
 
 ---
 
-*Built with ❤️ using Java + Android Studio*
+
